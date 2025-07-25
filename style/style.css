@@ -154,119 +154,13 @@ nav ul li a{
     font-size: 1.3rem;
     text-align: center;
 }
-/* shop related styles */
-/* .sell{
-    display: flex;
-    justify-content: space-between;
-}
-.block{
-    display: block;
-}
-.shop-left{
-    background-image: url(../assets/deal-bloom.png);
-    width: 366px;
-    height: 206px;
-    background-repeat: no-repeat;
-    border-radius: 15px;
-    justify-items: center;
-    
 
-}
-.shop-content{
-    max-width: 270px;
-    text-align: center;
-    margin-top: 65px;
-}
-.sell-banner{
-  position: relative;
-  width: 100%;
-  height: 250px; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-.sell-banner img {
-  max-width: 357px;
-  height: 206px;
-  border-radius: 15px;
-}
-.sell-banner .text {
-  position: absolute;
-  color: #fff;
-  text-align: center;
-}
-.sell-banner .btn {
-  display: inline-block;
-  margin-top: 10px;
-  color: #fff;
-
-  padding: 8px 16px;
-  
-  border-radius: 5px;
-}
-.bloom{
-    font-family: "Noto Serif", serif;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-}
-.shop-click{
-    font-family: "Inter", sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    
-}
-.ana{
-
-   position: relative;
-  width: 100%;
-  height: 250px; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.ana img{
-     max-width: 357px;
-  height: 197px;
-  border-radius: 15px;
-  
-}
-
-.ana-title{position: absolute;
-  color: #fff;
-  text-align: center;}
-.ana img{
-    width: 367px;
-    height: 197px;
-}
-.ana .btn{
-      display: inline-block;
-  margin-top: 10px;
-  color: #fff;
-}
-.zabo{
-    /* max-width: 753px; */
-    text-align: center;
-    align-items: center;
-    max-width: 100%;
-    background-color: #E95A08;
-} */
 .bg{
     background-color: aqua;
 }
 .sell-shop{
     display: grid;
-    /* justify-content: space-between; */
     grid-template-columns: repeat(2, 1fr);
-    /* gap: 28px; */
-   /* justify-content: space-around; */
-   /* grid-template-columns: repeat(2, 1fr); */
-   /* justify-content: space-between; */
    
 }
 .sell-shop-left{
@@ -387,18 +281,8 @@ input{
 
 @media screen and (max-width: 576px) {
     nav{
-        
-      /* max-width:  100%; */
-      /* margin-right: 12px; */
       max-width: 361px;
-      /* margin: auto; */
-      /* justify-items: center; */
-      /* margin-left: 80px; */
-      /* margin-left: 16px; */
       align-items: center;
-      /* justify-items: center; */
-      /* margin-left: 16px; */
-      /* justify-content: space-between; */
     }
     nav img{
         width: 63px;
@@ -416,14 +300,10 @@ input{
         display: flex;
         flex-direction: column-reverse;
         max-width: 100%;
-        /* margin-left: 10px;
-        margin-right: 10px; */
         margin: auto;
     }
    .banner img{
-    /* max-width: 100%; */
     max-width: 393px;
-    /* margin: auto; */
     margin-right: 0;
    }
    .banner-title, .banner-description{
@@ -544,12 +424,4 @@ input{
     max-width: 359px;
     font-size: 1rem;
 }
-/* .sell-content{
-    max-width: 361px;
-    max-height: 184px;
-    gap: 20px;
-    margin-bottom: 20px;
-} */
-
-
 }
