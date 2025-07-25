@@ -128,10 +128,12 @@ nav ul li a{
 }
 .badge{
     position: absolute;
-    left: 42%;
-    top: 155%;
+    left: 38%;
+    top: 225%;
+    
     margin-top: -100px;
     margin-right: -100px;
+    
     width: 286px;
     height: 286px;
 }
@@ -311,9 +313,77 @@ nav ul li a{
     color: white;
     border-radius: 15px;
 }
-.buch-form{
+.bunch-form{
+    text-align: center;
+    max-width: 1440px;
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    height: 533px;
+    
+    margin: 120px auto;
+    align-content: center;
     
 }
+.bunch-title{
+    font-family: "Noto Serif", serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: white;
+}
+input{
+    height: 49px;
+   padding-left: 20px;
+}
+.email-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe{
+    width: 186px;
+    height: 50px;
+    align-content: center;
+    padding: 12px 53px;
+}
+.footer-contaner{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+.list-container{
+    display: flex;
+    gap: 90px;
+}
+.lists{
+    display: flex;
+  flex-direction: column;
+  list-style: none;
+  line-height: 50px;
+   font-family: "Inter", sans-serif;
+   font-size: 1rem;
+}
+  .lists a{
+    text-decoration: none;
+  }
+
+  .lists-another{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+     line-height: 50px;
+   font-family: "Inter", sans-serif;
+   font-size: 1rem;
+  }
+  .lists-another li a{
+    text-decoration: none;
+  }
+.logo-description{
+     font-family: "Inter", sans-serif;
+     font-size: 1.3rem;
+     max-width: 359px;
+}
+
+
 
 @media screen and (max-width: 576px) {
     nav{
@@ -427,6 +497,52 @@ nav ul li a{
     max-width: 361px;
     max-height: 172px;
    
+}
+.bunch-class{
+    margin-left: 25px;
+}
+.bunch-form{
+    max-width: 393px;
+
+    max-height: 172px;
+    margin-top: 40px;
+    margin-left: 9px;
+}
+.bunch-class{
+    max-width: 321px;
+}
+.email-btn{
+    max-width: 321px;
+    margin: auto;
+}
+.bunch-title{
+    font-size: 1.2rem;
+}
+input{
+    max-width: 200px;
+    height: 46px;
+    margin-left: 16px;
+}
+.subscribe{
+    max-width: 103px;
+    
+}
+.subscribe{
+    font-size: 0.7rem;
+}
+.footer-contaner{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.list-container{
+    display: flex;
+    flex-direction: column;
+}
+.logo-description {
+    max-width: 359px;
+    font-size: 1rem;
 }
 /* .sell-content{
     max-width: 361px;
